@@ -11,6 +11,7 @@ public class GamePanel extends JPanel implements Runnable {
     static final int BALL_DIAMETER = 20;
     static final int PADDLE_WIDTH = 25;
     static final int PADDLE_HEIGHT = 100;
+    static final int QUSAI = 24; // added will remove it later
 
     Thread gameThread;
     Image image;
